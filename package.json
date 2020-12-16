@@ -12,7 +12,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "export PORT=80 && react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -32,5 +32,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://zenpassvpn.github.io/movie_app_2020/"
+  "homepage": "http://localhost"
 }

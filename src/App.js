@@ -39,8 +39,8 @@ const foodILike = [
 function App() {
   return (
     <div>
-      {foodILike.map((food) => (
-        <Food key={food.id} fav={food.name} imagesrc={food.imagesrc} />
+      {foodILike.map((f) => (
+        <Food key={f.id} fav={f.name} imagesrc={f.imagesrc} />
       ))}
     </div>
   );
