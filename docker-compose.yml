@@ -3,6 +3,8 @@ services:
   app:
       container_name: nginx-react      
       restart: always      
-      build: .      
+      build:   
+        context: .
+        dockerfile: ./Dockerfile
       ports:         
         - '3000:3000'
